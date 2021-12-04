@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="fr" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <title>Flag'Malo</title>
+  <link rel="icon" href="./images/logo.png">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+  <link rel="stylesheet" href="./css/bootstrap4-neon-glow.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+  <link rel="stylesheet" href="//cdn.jsdelivr.net/font-hack/2.020/css/hack.min.css">
+  <link rel="stylesheet" href="./css/main.css">
+  <link rel="stylesheet" href="./css/landing.min.css">  </head>
+
+  <body class="imgloaded">
+
+    <div id="preloader">
+      </div>
+
+      <div id="main">
+
+      <div id="particles-js" class="particle"></div>
+
+    <div class="navbar-dark text-white">
+            <div class="container">
+                <nav class="navbar px-0 navbar-expand-lg navbar-dark">
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                        <div class="navbar-nav">
+                            <a href="https://flagmalo.fr/" class="pl-md-0 p-3 text-decoration-none text-light">
+                                <h3 class="bold"><span class="color_danger">FLAGMALO</span><span class="color_white">CTF</span></h3>
+                            </a>
+                        </div>
+                        <div class="navbar-nav ml-auto">
+                            <a href="https://flagmalo.fr/" class="p-3 text-decoration-none text-light bold">Accueil</a>
+                            <a href="about" class="p-3 text-decoration-none text-light bold">About CTF</a>
+                            <a href="editions" class="p-3 text-decoration-none text-light bold">Editions précédentes</a>
+                            <a href="inscriptions" class="p-3 text-decoration-none text-white bold">Inscriptions</a>
+                            <a href="inscrits" class="p-3 text-decoration-none text-light bold">Liste des inscrits</a>
+                        </div>
+                    </div>
+                </nav>
+
+            </div>
+        </div>
+    <div class="jumbotron bg-transparent mb-0 pt-3 radius-0">
+        <div class="container">
+          <div class="row">
+              <div class="col-xl-12 text-center">
+                <h5 class="bold color_white pt-3 text-center">
+                    Inscription au Flag'Malo:
+                </h5>
+                <br>
+                <p>
+                  Afin de participer au CTF, vous devez étudier au sein d'une école du bassin maloin (jusqu'a Bac +3).
+                </p>
+                <p>
+                  Inscription par équipe de <b>5 max</b>. Inscription seul autorisé.
+                </p>
+                  <div class="row justify-content-center hackerFont">
+                      <div class="col-md-8">
+
+                        <form method="POST">
+                            <div class="row">
+                                <div class="col">
+                                    <input type="text" class="form-control" placeholder="Prénom" name="prenom" required>
+                                </div>
+                                <div class="col">
+                                    <input type="text" class="form-control" placeholder="Nom" name="nom" required>
+                                </div>
+                            </div>
+                            <div class="row  mt-3">
+                                <div class="col">
+                                    <input type="email" class="form-control" placeholder="Adresse Mail" name="mail" required>
+                                </div>
+                                <div class="col">
+                                  <input type="text" placeholder="N° de téléphone" pattern="[0][1-9][0-9][0-9][0-9][0-9][0-9][0-9][0-9][0-9]" oninput="this.value = this.value.replace(/[^0-9.]/g, '').replace(/(\..*)\./g, '$1');" class="form-control" name="numero" maxlength="10" required/>
+                                </div>
+                            </div>
+                            <div class="row mt-3">
+                                <div class="col">
+                                    <div class="form-group">
+                                        <label for="choix_ecole">Choix de l'école:</label>
+                                        <select class="form-control" id="choix_ecole" name="ecole">
+                                            <option>IUT de St Malo</option>
+                                            <option>Lycée Maupertuis</option>
+                                            <option>Lycée Rimains</option>
+                                        </select>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row mt-3">
+                                <div class="col">
+                                    <label for="choix_niveau">Choix du niveau:</label>
+                                        <select class="form-control" id="choix_niveau" name="niveau">
+                                            <option>Niveau Bac</option>
+                                            <option>Niveau Bac +1</option>
+                                            <option>Niveau Bac +2</option>
+                                            <option>Niveau Bac +3</option>
+                                        </select>
+                                </div>
+                            </div>
+                            <div class="row mt-3">
+                                <div class="col">
+                                    <input type="text" class="form-control" placeholder="Pseudo" name="pseudo" required>
+                                </div>
+                                <div class="col">
+                                    <input type="text" class="form-control" placeholder="Nom de l'équipe" name="nom_equipe" required>
+                                </div>
+                            </div>
+                            <div class="mt-4 text-center">
+                              <button type="submit" class="btn btn-outline-danger btn-shadow px-3 my-2 ml-0 ml-sm-1 text-left typewriter" name="forminscription"><h4>S'inscrire</h4></button>
+                            </div>
+                        </form>
+
+
+
+
+                      </div>
+                  </div>
+              </div>
+          </div>
+        </div>
+    </div>
+<footer>
+        <div class="container text-center">
+          <div class="row">
+            <div class="col-12">
+              <p>Copyright 2021 © Flag'Malo - All rights reserved.<br>
+              <a class="text-white" href="contacts">Nous contacter</a>
+              </p>
+            </div>
+          </div>
+        </div>
+
+
+      </footer>
+</div>
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  <script src="./js/preloader.js"></script><script src=".js/particles.min.js"></script>
+  <script src="./js/particles.js"></script>
+  <script src="./js/app.js"></script>
+
+  </body>
+</html>
